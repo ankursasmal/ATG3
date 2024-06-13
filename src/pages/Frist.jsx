@@ -63,7 +63,7 @@ stroke-dasharray="75, 100"
         <img src={phone2} alt="" style={{ width: '20vw', position: 'absolute', top: '6vw', right: '15%' }} />
       </div>
       <div className='d-block d-lg-none' style={{position:'absolute',bottom:'2px',alignSelf:'center'}}>
-  <div className='d-flex ' style={{alignItems:'center',justifyContent:'center'}}> 
+  <center className='d-flex ' style={{alignItems:'center',justifyContent:'center',marginLeft:'2vw'}}> 
   <Link to='/'><div style={{width:'5vw',height:'5vw',borderRadius:'50%',backgroundColor:'#09e3b4',marginRight:'2vw'}}></div></Link>
   <Link to='/second'><div style={{width:'5vw',height:'5vw',borderRadius:'50%',backgroundColor:'#09e3b4',marginRight:'2vw'}}></div></Link>
   <Link to='/third'><div style={{width:'5vw',height:'5vw',borderRadius:'50%',backgroundColor:'#09e3b4',marginRight:'2vw'}}></div></Link>
@@ -72,7 +72,7 @@ stroke-dasharray="75, 100"
   <Link to='/six'><div style={{width:'5vw',height:'5vw',borderRadius:'50%',backgroundColor:'#09e3b4',marginRight:'2vw'}}></div></Link>
   <Link to='/seven'><div style={{width:'5vw',height:'5vw',borderRadius:'50%',backgroundColor:'#09e3b4',marginRight:'2vw'}}></div></Link>
 
-</div>
+</center>
       </div>
     </div>
   )
