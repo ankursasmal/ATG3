@@ -46,11 +46,11 @@ stroke-dasharray="75, 100"
 
 
       <div className='col order-2 order-lg-1' style={{ backgroundColor: '#1aa1c7'}}>
-        <div style={{ position: 'absolute', bottom: '5vw', padding: '2vw' }}>
+      <div style={{ position: 'absolute', bottom: '5vw', padding: '2vw' }}>
           <h1>ABC 456</h1>
-          <a style={{color:'white',fontSize:'1.6vw'}}>Best since 2017
+          <a style={{color:'white',fontSize:'1.3vw'}}>Best since 2017
             We offer a wide range of web development and app development.</a>
-          <h3 style={{ marginTop: '4.2vw' }}>View Case Study</h3>
+          <h3 style={{ marginTop: '4vw' }}>View Case Study</h3>
            <a style={{ position: 'absolute', bottom: '0', right: '2vw' ,fontSize:'1.7vw',color:'white'}}>SKIP</a>
         </div>
       </div>
