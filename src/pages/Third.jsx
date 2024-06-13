@@ -13,7 +13,7 @@ import social from '../assets/social.png'
       
        <div className='d-none d-lg-block' style={{ position: 'absolute', top: '-4vw', right: '12vw', borderRadius: '50%' }}>
     
-          <svg viewBox="0 0 36 36" style={{transform: 'rotate(-45deg)',overflow:'auto',position:'absolute',top:'20vw',right:'19vw', }}>
+          <svg viewBox="0 0 36 36" style={{transform: 'rotate(-45deg)',overflow:'auto',position:'absolute',top:'20vw',right:'19vw',backgroundColor:'#d2e61e',borderRadius:'50%' }}>
   <path 
     d="M18 2.0845
       a 15.9155 15.9155 0 0 1 0 31.831

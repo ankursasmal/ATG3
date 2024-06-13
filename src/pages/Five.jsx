@@ -7,18 +7,16 @@ import forYou from '../assets/forYou.png'
 
 
     import 'bootstrap/dist/css/bootstrap.min.css';
-   import path from '../assets/path.svg'
-    
-   import Conva from '../component/Conva';
-   import { Link } from 'react-router-dom';
+     
+    import { Link } from 'react-router-dom';
    import '../App.css'
    function Five() {
 
    return (
        <div className='row row-cols-1 row-cols-lg-2' style={{ height: '100vh' }}>
-           <div className='d-none d-lg-block' style={{ position: 'absolute', top: '-4vw', right: '12vw', borderRadius: '50%' }}>
+           <div className='d-none d-lg-block' style={{ position: 'absolute', top: '-4vw', right: '12vw', borderRadius: '50%',  }}>
     
-    <svg viewBox="0 0 36 36" style={{transform: 'rotate(-45deg)',overflow:'auto',position:'absolute',top:'20vw',right:'19vw', }}>
+    <svg viewBox="0 0 36 36" style={{backgroundColor:'red',transform: 'rotate(-45deg)',overflow:'auto',position:'absolute',top:'20vw',right:'19vw', backgroundColor:'#6dc922',borderRadius:'50%' }}>
 <path 
 d="M18 2.0845
 a 15.9155 15.9155 0 0 1 0 31.831
@@ -50,7 +48,7 @@ stroke-dasharray="75, 100"
    
          <div className='col order-2 order-lg-1' style={{ backgroundColor: '#6dc922'}}>
            <div style={{ position: 'absolute', bottom: '5vw', padding: '2vw' }}>
-             <h1>ABC 456</h1>
+             <h1>ABC 346</h1>
              <a style={{color:'white',fontSize:'1.3vw'}}>Best since 2017
                We offer a wide range of web development and app development.</a>
              <h3 style={{ marginTop: '4vw' }}>View Case Study</h3>
