@@ -10,11 +10,11 @@ import buy from '../assets/buy.png'
       import Conva from '../component/Conva';
       import { Link } from 'react-router-dom';
       import '../App.css'
-      function Seven() {
+      function Sevens() {
    
       return (
           <div className='row row-cols-1 row-cols-lg-2' style={{ height: '100vh' }}>
-          <div className='d-none d-lg-block' style={{ position: 'absolute', top: '-4vw', right: '12vw', borderRadius: '50%' }}>
+          <div className='d-none d-lg-block' style={{ position: 'absolute', top: '-16vw', left: '27vw',borderRadius: '50%' }}>
     
     <svg viewBox="0 0 36 36" style={{transform: 'rotate(-45deg)',overflow:'auto',position:'absolute',top:'20vw',right:'19vw',backgroundColor:'#d4bc0d',borderRadius:'50%' }}>
 <path 
@@ -33,7 +33,7 @@ stroke-dasharray="75, 100"
 <Link to='/forth'><div style={{width:'2vw',height:'2vw',borderRadius:'50%',backgroundColor:'blue',position:'absolute',top:'35vw',right:'20vw'}}></div></Link>
 <Link to='/five'><div style={{width:'2vw',height:'2vw',borderRadius:'50%',backgroundColor:'blue',position:'absolute',top:'44vw',right:'24vw'}}></div></Link>
 <Link to='/six'> <div style={{width:'2vw',height:'2vw',borderRadius:'50%',backgroundColor:'blue',position:'absolute',top:'48vw',right:'33vw'}}></div></Link>
-<Link to='/seven'> <div style={{width:'2vw',height:'2vw',borderRadius:'50%',backgroundColor:'blue',position:'absolute',top:'44vw',left:'5vw'}}></div></Link>
+<Link to='/sevens'> <div style={{width:'2vw',height:'2vw',borderRadius:'50%',backgroundColor:'blue',position:'absolute',top:'44vw',left:'5vw'}}></div></Link>
 
     
     
@@ -81,5 +81,5 @@ stroke-dasharray="75, 100"
         
             
    
-export default Seven
+export default Sevens
   

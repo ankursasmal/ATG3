@@ -15,7 +15,7 @@ import Third from './pages/Third.jsx';
 
 import Five from './pages/Five.jsx';
 import Sixths from './pages/Sixths.jsx';
-import Seven from './pages/Seven.jsx';
+import Sevens from './pages/Sevens.jsx';
 
  const router = createBrowserRouter([
   {
@@ -45,8 +45,8 @@ import Seven from './pages/Seven.jsx';
       element: <Sixths/>,
     },
     {
-      path: "/seven",
-      element: <Seven/>,
+      path: "/sevens",
+      element: <Sevens/>,
     },
 
   
