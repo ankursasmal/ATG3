@@ -46,9 +46,12 @@ stroke-dasharray="75, 100"
         <div className='col order-2 order-lg-1' style={{ backgroundColor: '#cf6944'}}>
           <div style={{ position: 'absolute', bottom: '5vw', padding: '2vw' }}>
             <img src={star} alt=""style={{width:'20vw',paddingBottom:'3vw'}} />
+            <div style={{display:'flex',flexDirection: 'column',width:'60%'}}> 
+
             <h1>ABC 346</h1>
             <a style={{color:'white',fontSize:'1.3vw'}}>Best since 2017
               We offer a wide range of web development and app development.</a>
+            </div>
             <h3 style={{ marginTop: '4vw' }}>View Case Study</h3>
              <a style={{ position: 'absolute', bottom: '0', right: '2vw' ,fontSize:'1.7vw',color:'white'}}>SKIP</a>
           </div>

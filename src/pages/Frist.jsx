@@ -37,7 +37,7 @@ stroke-dasharray="75, 100"
     
     
 <div className='d-flex' style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center', position:'absolute',top:'30vw',left:'2vw'  }}>
-       <a style={{fontSize:'1.6vw' ,color:'white'}} >Developing ERP Solution for</a>
+        <a style={{fontSize:'1.6vw' ,color:'white'}} >Developing ERP Solution for</a>
        <h1 style={{fontSize:'4.2vw' ,color:'white'}}>Text Headline</h1>
        <a style={{ alignSelf: 'flex-end',color:'white',fontSize:'1.3vw' }} >in furniture industry</a>
     </div>
@@ -47,9 +47,12 @@ stroke-dasharray="75, 100"
 
       <div className='col order-2 order-lg-1' style={{ backgroundColor: '#1aa1c7'}}>
       <div style={{ position: 'absolute', bottom: '5vw', padding: '2vw' }}>
+      <div style={{display:'flex',flexDirection: 'column',width:'60%'}}> 
+
           <h1>ABC 456</h1>
           <a style={{color:'white',fontSize:'1.3vw'}}>Best since 2017
             We offer a wide range of web development and app development.</a>
+            </div>
           <h3 style={{ marginTop: '4vw' }}>View Case Study</h3>
            <a style={{ position: 'absolute', bottom: '0', right: '2vw' ,fontSize:'1.7vw',color:'white'}}>SKIP</a>
         </div>
